@@ -97,7 +97,7 @@ textNombre.text = "Nombre: " + Nombre[CocheSeleccionado - 1] + "\n" +
 &nbsp; 
 
   <h3 align="justify">Deselección de Coche</h3>
-  <p align="justify">Al presionar la tecla correspondiente a un coche ya seleccionado, se deselecciona dicho coche, devolviendo la variable "CocheSeleccionado" a 0.</p>
+  <p align="justify">Al presionar la tecla correspondiente a un coche ya seleccionado, se deselecciona dicho coche y devuelve la variable "CocheSeleccionado" a 0.</p>
 
 ```sh
 // Deselección de coche
@@ -227,10 +227,34 @@ if (Input.GetKeyDown(KeyCode.R))
     DistanciaMaxima[4] = Random.Range(0, 15);
 }
 ```
+&nbsp;
+<h2 align="justify">Requisitos del Sistema</h2>
+<ul align="justify">
+    <li><strong>Plataforma:</strong> Disponible para Windows, macOS y Linux.</li>
+  &nbsp;
+    <li><strong>Requisitos Mínimos de Hardware:</strong> Se recomienda un procesador de al menos 2.0 GHz, 4 GB de RAM y una tarjeta gráfica compatible con DirectX 11.</li>
+</ul>
 &nbsp; 
 
   <h2 align="justify">Conclusiones</h2>
   <p align="justify">El desarrollo de esta interfaz para la manipulación de coches en Unity ha sido exitoso. Se ha logrado una implementación robusta y funcional que permite al usuario interactuar con los coches de manera intuitiva y controlada.</p>
   <p align="justify">El uso de un único script y la integración de atributos y arrays demuestran un enfoque eficiente y organizado en el desarrollo del proyecto.</p>
   <p align="justify">En resumen, el proyecto ha sido una experiencia enriquecedora que ha permitido aplicar y consolidar conocimientos en el desarrollo de juegos con Unity, así como mejorar habilidades en programación y lógica de juego.</p>
-</body>
+
+&nbsp;
+
+## Créditos
+
+- **Desarrollador**: Carlos Valencia Sánchez
+- **Diseñador de Juego**: Carlos Valencia Sánchez
+- **Artista Gráfico**: Carlos Valencia Sánchez
+
+&nbsp;
+## Contacto
+
+Para obtener soporte técnico, reportar errores o proporcionar comentarios, no dudes en contactar.
+
+---
+<p align="justify">Este documento proporciona una visión general del juego, incluyendo sus características, tecnología utilizada, requisitos del sistema, instrucciones de juego y créditos. Para obtener más información detallada sobre el desarrollo y funcionamiento del juego, consulta la documentación interna o comunícate con el desarrollador.</p>
+
+
